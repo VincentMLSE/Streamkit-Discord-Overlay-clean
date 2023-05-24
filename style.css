@@ -3,7 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
 
 :root {
-  --name-color: #f0f0f0; /* color of the name */
+  --active-color: #20e968; /* color of the border and shadow of the avatar when speaking */
+  --name-color: #f0f0f0; /* color of the name */ 
   --dark-background: rgba(13, 17, 23, .8); /* background color of the voice container */
   --shadow: none; /* shadow of the voice container */
   --w: 60px; /* user avatar sizes */
@@ -11,7 +12,6 @@
   --font-weight: 600;
   --radius: 50px; /* 50px for circle */
   --direction: column; /* row or column */
-  --active-color: #20e968; /* color of the border and shadow of the avatar when speaking */
 }
 
 *,
